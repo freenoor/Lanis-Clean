@@ -1,0 +1,66 @@
+.onlyrefpage{
+    .projects__section {
+        padding-top: 60px;
+        @media(max-width: 470px){
+            padding-top: 30px;
+        }
+        nav {
+            // justify-content: flex-end;
+                .nav-item {
+                    .nav-link {
+                        @media(max-width: 991.98px){
+                        margin: 0 10px;
+                        padding: 12px 28px;
+                        }
+                        @media(max-width: 767.98px){
+                            margin: 0 0px;
+                            padding: 12px 14px;
+                            }
+                            @media(max-width: 470px){
+                                font-size: 14px !important;
+                                padding: 12px 6px;
+                            }
+                        }
+                        &:nth-child(1){
+                            @media(max-width: 470px){
+                                padding-left: 0;
+                            }
+                        }
+                        &:nth-child(2){
+                            @media(max-width: 470px){
+                                padding-right: 0;
+                            }
+                        }
+                        &:nth-child(3){
+                            @media(max-width: 470px){
+                                padding-left: 0;
+                            }
+                        }
+                        &:nth-child(4){
+                            @media(max-width: 470px){
+                                padding-right: 0;
+                            }
+                        }
+                    }
+                }
+        .tab-content{
+            .tab-pane{
+                .all{
+                    .klas{
+                        .under{
+                            img{
+                                height: 380px;
+                                @media(max-width: 1199.98px){
+                                    height: 300px;
+                                }
+                                @media(max-width: 767.98px){
+                                   height: 250px;
+                                    }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

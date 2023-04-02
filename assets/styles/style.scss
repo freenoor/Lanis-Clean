@@ -1,0 +1,99 @@
+@import "./home";
+@import "header";
+@import "footer";
+@import "services";
+@import "about";
+@import "buttons";
+@import "hamburger";
+@import "referenzen";
+@import "contact";
+@import "404";
+@import "singles";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+@font-face {
+    font-family: 'LibreBaskerville-R';
+    src: url(../fonts/LibreBaskerville-Regular.ttf);
+    }
+
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    html, body {
+        max-width: 100% !important;
+        overflow-x: hidden;
+        scroll-behavior: smooth!important;
+        list-style-type: none;
+        appearance: none;
+        padding: 0!important;
+    }
+    .wpcf7-not-valid{
+        border-bottom: 2px solid red !important;
+    }
+    div.wpcf7 .ajax-loader{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    .wpcf7-form.invalid .wpcf7-response-output, .wpcf7-form.invalid .wpcf7-not-valid-tip{
+        display: none!important;
+    }
+    .home6 form .wpcf7-mail-sent-ok{
+        width: unset;
+    }
+    form .wpcf7-mail-sent-ok{
+        justify-content: center;
+        text-align: center;
+        border: 1px solid #398f14!important;
+        font-size: 13px;
+        margin: auto;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: fit-content;
+    }
+    li{
+        list-style-type: none!important;
+    }
+    a{
+        text-decoration: unset!important;
+        &:hover{
+            text-decoration: unset!important;
+        }
+    }
+    ::selection {
+        background-color: transparent;
+        color: #64ccda;
+    }
+    .site-footer a::selection, .site-footer p::selection, .site-footer h3::selection{
+        color: #707070;
+    }
+    body::-webkit-scrollbar{
+        width: 13px;
+        }
+    body::-webkit-scrollbar-track-piece{
+        background-color: rgba(0, 0, 0, 0.10);
+    }
+    body::-webkit-scrollbar-thumb{
+        background-image: linear-gradient(#64ccda, #64ccda);
+        }
+    body::-webkit-scrollbar-thumb:hover{
+        background-image: linear-gradient(#64ccda, #64ccda, transparent, transparent, #64ccda, #64ccda);
+        }
+    body::-webkit-scrollbar-button:single-button {
+        background-image: linear-gradient(#64ccda);
+        display: block;
+        border-style: none;
+        height: 18px;
+        width: 13px;
+        }
+    body::-webkit-scrollbar-button:single-button:hover{
+        background-image: linear-gradient(#64ccda);
+        }

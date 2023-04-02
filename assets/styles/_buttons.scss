@@ -1,0 +1,77 @@
+.button_welcomesection{
+    width: 220px;
+    height: 60px;
+    // background-color: #64ccda;
+    background: #3f818a linear-gradient(to right, rgba(255, 255, 255, 0), #64ccda);
+    box-shadow: 0 12px 14px #2a717540;
+    transition: background-color 0.2s ease-in, box-shadow 0.2s ease-in;
+
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #64ccda;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    a{
+        color: white;
+        font-size: 18px;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        transition: .4s ease-in-out;
+        -webkit-transition: .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -ms-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+        @media(max-width: 470px){
+            font-size: 16px;
+        }
+    }
+    &:hover{
+        transition: .4s ease-in-out;
+        -webkit-transition: .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -ms-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+        border: 1px solid #64ccda;
+        background: #3f818a linear-gradient(to left, rgba(255, 255, 255, 0), #64ccda);
+        transition: background-color 0.2s ease-in, box-shadow 0.2s ease-in;
+    }
+}
+.button_welcomesection.extrastyle{
+    margin: unset;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 1.1rem;
+    a{
+    color: white;
+    }
+    &:hover{
+        transition: .4s ease-in-out;
+        -webkit-transition: .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -ms-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+        border: 1px solid transparent;
+        // background-color: white;
+        background: white linear-gradient(to right, rgba(255, 255, 255, 0), white);
+
+        a{
+            color: #64ccda;
+            transition: .4s ease-in-out;
+        -webkit-transition: .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -ms-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+        }
+    }
+}
